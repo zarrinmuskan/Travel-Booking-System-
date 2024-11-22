@@ -22,8 +22,8 @@ class PaymentGatewayAdapterImpl implements PaymentGatewayAdapter {
 
     @Override
     public void processPayment(double amountInBDT) {
-        // Assuming a conversion rate of 1 USD = 85 BDT
-        double conversionRate = 85.0;
+        // Assuming a conversion rate of 1 USD = 120 BDT
+        double conversionRate = 120.0;
         double amountInUSD = amountInBDT / conversionRate;
 
         // Pass the converted amount to the third-party gateway
