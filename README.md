@@ -14,6 +14,7 @@ General Description of the Project: The project is designed to create a travel b
 leave feedback. Some features are built specifically to help the user in having comfort, security, and engagement while using the platform—thereby making it all around and most trusted.  
 
 How many design patterns implemented and their name: 
+
 7 design patterns were implemented and they are: 
    1. Factory Design Pattern 
    2. Singleton Design Pattern
