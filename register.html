@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <!-- Link to the external CSS file -->
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <div>
+        <h1>User Registration</h1>
+        <form method="POST" action="/register">
+            <!-- Name field -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+
+            <!-- Username field -->
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <br>
+
+            <!-- Email field -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+
+            <!-- Phone number field -->
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required placeholder="123-456-7890">
+            <br>
+
+            <!-- Password field -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <br>
+
+            <!-- Submit button -->
+            <button type="submit">Register</button>
+        </form>
+        <p>Already have an account? <a href=login.html>Login here</a></p>
+    </div>
+</body>
+</html>
