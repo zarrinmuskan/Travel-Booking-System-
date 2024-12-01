@@ -1,0 +1,102 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+
+/* General Body Styles */
+body {
+    font-family: 'Oswald', sans-serif; /* Unique font */
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Heading Styles */
+h1 {
+    color: #333;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 32px; /* Larger font size */
+    font-weight: 700; /* Bold weight */
+    text-transform: uppercase; /* Makes the heading uppercase */
+}
+
+/* Centering the Register Section */
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Form Styles */
+form {
+    text-align: left;
+}
+
+/* Label Styles */
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 700; /* Bold weight */
+    color: #333;
+    font-size: 14px;
+}
+
+/* Input Fields and Select Styles */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif; /* Consistent unique font */
+    font-weight: 400; /* Regular weight for inputs */
+}
+
+/* Button Styles */
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #07691f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif; /* Unique font for button */
+    font-weight: 700; /* Bold weight for prominence */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Paragraph (for Login link) Styles */
+p {
+    margin-top: 15px;
+    font-size: 14px;
+    font-family: 'Oswald', sans-serif; /* Consistent font */
+    font-weight: 400; /* Regular weight for readability */
+}
+
+p a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 700; /* Bold for link emphasis */
+    transition: color 0.3s ease;
+}
+
+p a:hover {
+    color: #0056b3;
+}
