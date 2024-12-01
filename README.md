@@ -23,7 +23,7 @@ How many design patterns implemented and their name:
    1. Factory Design Pattern 
    2. Observer Design Pattern
    3. Decorator Design Pattern
-   4. Adapter Design Pattern
+   4. Strategy Design Pattern
    5. Builder Design Pattern
    6. Proxy Design Pattern 
   
