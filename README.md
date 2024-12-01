@@ -19,12 +19,11 @@ leave feedback. Some features are built specifically to help the user in having 
 
 How many design patterns implemented and their name: 
 
-7 design patterns were implemented and they are: 
+6 design patterns were implemented and they are: 
    1. Factory Design Pattern 
-   2. Singleton Design Pattern
-   3. Observer Design Pattern
-   4. Decorator Design Pattern
-   5. Adapter Design Pattern
-   6. Builder Design Pattern
-   7. Proxy Design Pattern 
+   2. Observer Design Pattern
+   3. Decorator Design Pattern
+   4. Adapter Design Pattern
+   5. Builder Design Pattern
+   6. Proxy Design Pattern 
   
