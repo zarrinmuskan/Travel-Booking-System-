@@ -25,5 +25,6 @@ How many design patterns implemented and their name:
    3. Adapter Design Pattern
    4. Strategy Design Pattern
    5. Builder Design Pattern
-   6. Proxy Design Pattern 
+   6. Proxy Design Pattern
+   7. Observer Design Pattern
   
